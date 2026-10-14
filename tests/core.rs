@@ -120,7 +120,6 @@ fn provided_methods() {
 }
 
 #[test]
-#[ignore = "urng_core 0.1.1 drops the top bit in u64::to_float; re-enable once urng_core 0.1.2 is required"]
 fn provided_methods_u64() {
     let mut p = Pair(0u64);
     let _ = p.next_point();

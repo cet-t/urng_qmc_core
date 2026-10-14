@@ -12,4 +12,4 @@ repository = "https://github.com/cet-t/urng_qmc_core"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-urng_core = "0.1"
+urng_core = "0.1.2"
